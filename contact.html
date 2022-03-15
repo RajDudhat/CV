@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <meta charset="utf-8">
     <meta name="viewport" width="device-width" initial-scale="1.0"> 
     <title>Contact-me</title>
+    <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
     <h1>Contact details</h1>
@@ -13,19 +15,20 @@
     <p><strong>Email:</strong><a href="<a href="mailto:darkmail@gmail.com">darkmail@gmail.com</a></p>
 
     <form action="mailto:darkmail@gmail.com">
+      <fieldset>
       <label for="username">Your Name:</label>
       <input type="text" id="username" name="username">
       <br><br>
       <label for="email">Your email:</label>
       <input type="email" id="email">
       <br><br>
-      <label for="message">Your message</label>
+      <label for="message">Your message:</label>
       <br>
       <textarea name="message" id="message" cols="30" rows="10"></textarea>
       <br><br>
       <input type="submit">
       <input type="reset">
-
+    </fieldset>
     </form>
   </body>
 </html>
